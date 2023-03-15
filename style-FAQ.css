@@ -7,18 +7,19 @@
   box-sizing: border-box;
 }
 
+
 body {
 font-family: 'Mulish', sans-serif;
 }
 
 .header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 100px;
     padding: 25px;
   }
-
   main {
    height: calc(100vh - 70px);
    display: flex;
@@ -51,68 +52,25 @@ display: flex;
     text-align: center;
   }
 
- h1 {
+  h3 {
+    text-align: center;
+     font-size: 30pt;
+     margin-left: 50px;
+     margin-right: 30 px;
+     margin-top: 10px;
+  color: black;
+   }
+ h4 {
   text-align: center;
-   font-size: 40pt;
-width: 100%;
-margin-left: 60px;
-color: #3569A5;
+   font-size: 22pt;
+color: #4c4e4f;
  }
 
- .content {
-  background-color: #f9f9f9;
-  width: 100%;
-  height: 100%;
-  padding: 15px 15px;
-  border-top: 1px solid #ddd;
-  overflow-y: scroll;
-  
-}
-
-  .flags {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-  }
-
-  .bg  {
-display: flex;
-flex-direction: column;
-position: relative;
-width: 100%;
-  height: 100%;
-  background-image: url(bg.png);
-  background-size: cover;
-  }
-
-  .buttons {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-  
-  }
-
-.btn {
-  border-radius: 80px;
-  top: 150px;
-  left: 200px;
-border: none;
-}
-
-.btn2 {
-  border-radius: 80px;
-  top: 150px;
-  right: 200px;
-  border: none;
-}
-
-
 p {
-  position: relative;
+  top: 70px;
   text-align: center;
-  color: white;
-  font-size: 25pt;
-  margin: 7%;
+  color: #3569A5;
+  font-size: 16pt;
 }
 
  .nav-link {
@@ -126,14 +84,19 @@ width: 150px;
 margin: 5px;
  }
 
-.content {
-line-height: 1.5;
+ .content {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 100%;
+  padding: 15px 15px;
+  border-top: 1px solid #ddd;
+  overflow-y: scroll;
+  line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
 }
 
-.content img {
-margin: 10px;
-	float: left;
-	}
 
 hr {
   height: 4px;
@@ -144,19 +107,5 @@ hr {
  	text-align: left;
  	font-size: 15px;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
