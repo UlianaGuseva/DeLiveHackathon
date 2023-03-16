@@ -2,16 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Fredoka One', cursive;
 }
 
-
-body {
-    font-family: 'Dancing Script', sans-serif;
-}
 
 
 
@@ -23,6 +22,9 @@ body {
     height: 100px;
     padding: 25px;
     width: 100%;
+  }
+  .header h1 {
+    margin-left: 145px;
   }
 
   h1 {
@@ -81,10 +83,10 @@ p {
  }
 
  .nav-link img {
-height: 55px;
-width: 150px;
-margin: 5px;
- }
+  height: 66px;
+  width: 243px;
+  margin: 3px;
+   }
 
  .content {
   background-color: #f9f9f9;
